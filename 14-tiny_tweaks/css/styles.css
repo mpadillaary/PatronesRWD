@@ -21,9 +21,11 @@ img {
 
 h1 {
     font-size: 4rem;
+    text-align: center;
 }
 
 /** CODIGO AQUI **/
+
 
 h2 {
     font-size: 3.2rem;
@@ -50,3 +52,10 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+        text-align: left;
+    }    
+}
